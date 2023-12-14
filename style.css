@@ -1,0 +1,46 @@
+body{
+    margin:0;
+    padding:0;
+    background-position: center;
+    background-size: cover;
+    background:linear-gradient(rgba(162, 211, 230, 0.4),rgba(122, 126, 56, 0.5)) ;
+    background-repeat: no-repeat;
+    height: 100vh;
+    box-sizing: border-box;
+}
+
+.container{
+    min-height: 80vh ;
+    width: 70%;
+    border:8px solid rgb(236, 212, 231) ;
+    margin:50px auto ;
+    border-radius:5px ;
+    box-shadow: 10px 10px 25px rgb(28, 27, 27,.6);
+    position: relative;
+    background: url("media/bg1.jpg") center/cover fixed no-repeat;
+    transition: ease-in 2s;
+}
+
+btn{
+    background-color: white;
+}
+
+.btn-left{
+    position:absolute;
+    top:50%;
+    left: -2.5%;
+    background-color:white ;
+    padding: 10px ;
+    border-radius: 50px;
+    transform: translateY(calc(-50%));
+}
+
+.btn-right{
+    position:absolute;
+    top:50%;
+    right:-2.5%;
+    background-color:white ;
+    padding: 10px ;
+    border-radius: 50px;
+    transform: translateY(calc(-50%));
+}
